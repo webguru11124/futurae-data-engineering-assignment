@@ -1,0 +1,25 @@
+{
+  "records_read": 2020,
+  "clean_events": 1964,
+  "rejected_events": 36,
+  "duplicates_dropped": 20,
+  "reject_reasons": {
+    "invalid_timestamp": 6,
+    "missing_service": 7,
+    "missing_timestamp": 24
+  },
+  "quality_flags": {
+    "event_type_status_mismatch": 63,
+    "latency_coerced": 3,
+    "latency_invalid": 1,
+    "latency_missing": 13,
+    "status_code_coerced": 2,
+    "status_code_invalid": 10,
+    "status_code_missing": 9,
+    "timestamp_nonstandard_format": 10,
+    "timestamp_timezone_assumed_utc": 6,
+    "unknown_fields": 20,
+    "user_id_missing": 9
+  },
+  "metric_rows": 719
+}
