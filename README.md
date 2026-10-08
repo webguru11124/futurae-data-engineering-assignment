@@ -1,7 +1,8 @@
 # Event metrics pipeline
 
 This project cleans a sample of streaming service events and aggregates them into per-service,
-per-minute request metrics. A small FastAPI app serves the result.
+per-minute request metrics. A small FastAPI app serves the result. The assignment brief is in
+[HomeAssignment.pdf](HomeAssignment.pdf).
 
 ## Quick start
 
